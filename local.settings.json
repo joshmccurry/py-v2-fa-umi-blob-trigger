@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "AzureWebJobsStorage__accountName": "<storage_account_name>",
+    "AzureWebJobsStorage__clientId": "<user_assigned_identity_id>",
+    "BlobTriggerStorage__blobServiceUri": "<storage_account_blob_uri>",
+    "BlobTriggerStorage__queueServiceUri": "<storage_account_queue_uri>",
+    "BlobTriggerStorage__clientId": "<user_assigned_identity_id>"
+  }
+}
